@@ -1,0 +1,40 @@
+# ===== 敏感配置文件 =====
+# 永远不要提交真实的配置文件到 Git
+src/js/config.js
+
+# ===== Node.js =====
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 日志文件 =====
+logs/
+*.log
+
+# ===== 临时文件 =====
+tmp/
+temp/
+.cache/
+
+# ===== 构建产物 =====
+dist/
+build/
+*.min.js
+*.min.css
+
+# ===== 测试覆盖率 =====
+coverage/
+.nyc_output/

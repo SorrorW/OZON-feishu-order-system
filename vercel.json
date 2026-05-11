@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/*.js", "use": "@vercel/node" },
+    { "src": "dist/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/$1" },
+    { "src": "/(.*)", "dest": "/dist/$1" }
+  ],
+  "env": {
+    "FEISHU_APP_ID": "@feishu_app_id",
+    "FEISHU_APP_SECRET": "@feishu_app_secret",
+    "FEISHU_BASE_TOKEN": "@feishu_base_token",
+    "FEISHU_TABLE_ID": "@feishu_table_id",
+    "FEISHU_CONFIG_TABLE_ID": "@feishu_config_table_id",
+    "FEISHU_API_ENDPOINT": "https://open.feishu.cn/open-apis"
+  }
+}
