@@ -269,12 +269,6 @@ MIT License
 
 ---
 
-## 联系方式 📧
-
-- 作者：齐活林（Qi）· 交付总监
-- 团队：软件开发团队
-- 邮箱：<PRESIDIO_ANONYMIZED_EMAIL>
-
 ---
 
 **⚡ 快速链接**
